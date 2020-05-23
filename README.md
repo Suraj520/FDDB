@@ -14,7 +14,7 @@ This repository contains scripts automating conversion of the FDDB dataset to a 
 3. Create a new folder and call it *images*. Unpack the supplied images inside of it. 
 
         tar -xzvf FDDB-folds.tgz
-        mdkir images && tar -xzvf originalPics.tar.gz -C images
+        mkdir images && tar -xzvf originalPics.tar.gz -C images
 
 4. Prepare data.
 
